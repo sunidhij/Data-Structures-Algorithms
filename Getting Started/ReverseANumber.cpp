@@ -1,18 +1,17 @@
-import java.util.*;
-   
-   public class Main{
-   
-   public static void main(String[] args) {
-     // write your code here  
-     Scanner scn= new Scanner(System.in);
-     int n = scn.nextInt();
+#include <iostream>
+using namespace std;
+
+int main(int argc, char **argv){
+
+     int n ;
+      cin>>n;
      int r;
      while(n!=0)
      {
          r = n%10;
          n = n/10;
-         System.out.println(r);
+         cout<<r<<endl;
      }
     
-    }
-   }
+    
+}
