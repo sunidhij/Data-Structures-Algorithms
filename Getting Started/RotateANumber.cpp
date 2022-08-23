@@ -1,12 +1,10 @@
-import java.util.*;
-   
-   public class Main{
-   
-   public static void main(String[] args) {
-     // write your code here  
-      Scanner scn = new Scanner(System.in);
-     int n = scn.nextInt();
-     int k = scn.nextInt();
+#include <iostream>
+using namespace std;
+
+int main(int argc, char **argv)
+{
+      int n,k
+         cin>>n>>k;
     
     int v1;
     int v2;
@@ -27,6 +25,6 @@ import java.util.*;
     v1 = n/((int)Math.pow(10,k));
     v2 =  n%((int)Math.pow(10,k));
     int r = v2*((int)Math.pow(10,count -k)) + v1;
-    System.out.print(r);
-    }
-   }
+    cout<<r;
+    
+}
